@@ -42,6 +42,12 @@
     margin: 70px;
 }
 
-.linea{
-    background-color: lightgray;
+.prima-lista{
+    font-size: 25px;
+    color: grey;
+}
+
+.container{
+    text-align: left;
+    padding: 20px;
 }
