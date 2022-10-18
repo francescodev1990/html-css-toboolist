@@ -16,3 +16,32 @@
     font-size: 50px;
     text-align: left;
 }
+.bottone-1{
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px arial, helvetica, sans-serif;
+    color: white;
+    padding: 10px 20px;
+    background: cornflowerblue;
+    border-radius: 10px 10px;
+    margin: 70px;
+    
+    
+}
+
+.bottone-2{
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px arial, helvetica, sans-serif;
+    color: grey;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 10px 10px;
+    margin: 70px;
+}
+
+.linea{
+    background-color: lightgray;
+}
