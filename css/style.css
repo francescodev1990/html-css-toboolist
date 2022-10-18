@@ -1,53 +1,59 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
     box-sizing: border-box;
 }
 
+.contenitore{
+    padding: 15px;
+    margin: 125px;
+    box-sizing: border-box;
+    line-height: 50px;
+    
+}
+
 .logo{
-
+    display: inline-block;
+    vertical-align: middle;
 }
-
-.logo img{
-    float: left;
-}
-.logo h1{
-    float: left;
-    font-size: 50px;
+.intestazione{
+    font-size: 35px;
     text-align: left;
+    display: inline-block;
+    vertical-align: middle;
 }
+
 .bottone-1{
-    outline: none;
-    text-align: center;
-    text-decoration: none;
-    font: bold 12px arial, helvetica, sans-serif;
+    background-color: cornflowerblue;
     color: white;
-    padding: 10px 20px;
-    background: cornflowerblue;
-    border-radius: 10px 10px;
-    margin: 70px;
-    
-    
+    border-radius: 5px;
+    margin: 25px;
 }
 
 .bottone-2{
-    outline: none;
-    text-align: center;
-    text-decoration: none;
-    font: bold 12px arial, helvetica, sans-serif;
+    background-color: white;
     color: grey;
-    padding: 10px 20px;
-    background: white;
-    border-radius: 10px 10px;
-    margin: 70px;
+    border-radius: 5px;
+    margin: -25px;
 }
 
-.prima-lista{
-    font-size: 25px;
-    color: grey;
+.titolo-uno{
+    font-size: 20px;
+    color: cadetblue;
+}
+.titolo-due{
+    font-size: 20px;
+    color: cadetblue;
+}
+.titolo-tre{
+    font-size: 20px;
+    color: cadetblue;
 }
 
-.container{
-    text-align: left;
-    padding: 20px;
+ul{
+    list-style-type: none;
+}
+
+.done::before{
+    content: icon;
 }
