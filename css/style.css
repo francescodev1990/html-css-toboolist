@@ -6,7 +6,7 @@
 
 
 body{
-    background-color: rgb(228, 240, 240);
+    background-color: rgb(113, 230, 230);
 }
 
 
@@ -42,8 +42,9 @@ header{
 .container{
     width: 70%;
     margin: 0 auto;
-    background-color: rgb(213, 237, 237);
+    background-color: rgb(222, 241, 241);
     border-radius: 20px 20px 0px 0px;
+
 
 }
 
@@ -58,6 +59,7 @@ header{
    padding: 5px 10px;
    border-radius: 10px;
    background-color: white;
+   color: grey;
 }
 
 
@@ -68,4 +70,61 @@ header{
 ul{
     list-style-type: none;
     padding: 20px;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 15px;
+    display: inline-block;
+}
+
+.checked:before{
+    content: '\2713' ;
+    border: 1px solid green;
+    color: green;
+    border-radius: 20px;
+}
+
+.failed:before{
+    content: '\2573';
+    border-radius: 10px;
+    font-size: 12px;
+    color: red;
+    border: 1px solid red;
+}
+
+.tag{
+    padding: 6px 6px;
+    border-radius: 12px;
+    font-size: 8px;
+    color: white;
+}
+
+.tag-type-1{
+    background-color: cornflowerblue;
+}
+
+.tag-type-2{
+    background-color: blueviolet;
+}
+
+.tag-type-3{
+    background-color: green;
+}
+
+.tag-type-4{
+    background-color: violet;
+}
+
+.tag-type-5{
+    background-color: grey;
+}
+
+.tag-type-6{
+    background-color: pink;
 }
