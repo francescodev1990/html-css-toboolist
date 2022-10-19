@@ -4,18 +4,33 @@
     box-sizing: border-box;
 }
 
-.contenitore{
-    padding: 15px;
-    margin: 125px;
-    box-sizing: border-box;
-    line-height: 50px;
+
+body{
+    background-color: rgb(228, 240, 240);
+}
+
+
+header{
+    background-color: white;
+    height: 100px;
+    padding: 10px 25px;
+    margin-bottom: ;
     
 }
 
-.logo{
-    display: inline-block;
+
+.logo-text{
+    font-size: 30px;
+    font-weight: 800;
     vertical-align: middle;
 }
+
+.logo{
+    height: 85px;
+    vertical-align: middle;
+}
+
+
 .intestazione{
     font-size: 35px;
     text-align: left;
@@ -23,37 +38,34 @@
     vertical-align: middle;
 }
 
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(213, 237, 237);
+    border-radius: 20px 20px 0px 0px;
+
+}
+
 .bottone-1{
-    background-color: cornflowerblue;
-    color: white;
-    border-radius: 5px;
-    margin: 25px;
+   padding: 5px 10px;
+   border-radius: 10px;
+   background-color: cornflowerblue;
+   color: white;
 }
 
 .bottone-2{
-    background-color: white;
-    color: grey;
-    border-radius: 5px;
-    margin: -25px;
+   padding: 5px 10px;
+   border-radius: 10px;
+   background-color: white;
 }
 
-.titolo-uno{
-    font-size: 20px;
-    color: cadetblue;
-}
-.titolo-due{
-    font-size: 20px;
-    color: cadetblue;
-}
-.titolo-tre{
-    font-size: 20px;
-    color: cadetblue;
+
+.lista-1{
+    padding: 80px;
 }
 
 ul{
     list-style-type: none;
-}
-
-.done::before{
-    content: icon;
+    padding: 20px;
 }
